@@ -195,4 +195,4 @@ Kỹ thuật vẽ anchor (đều có ảnh mẫu `anchor_*`, `kpi_*`):
 5. Về màu sắc, font, light/dark, code vẽ: theo skill `dataviz` nếu có.
 6. Rà checklist cuối.
 
-*Nguồn ví dụ: loạt bài "Show the data → Show the …" của Chartosaur (ảnh chụp màn hình lưu cục bộ để tham khảo nội bộ).*
+*Nguồn ví dụ: loạt bài "Show the data → Show the …" của Chartosaur (ảnh chụp màn hình, bản quyền thuộc tác giả gốc; dùng để học tập, tham khảo).*

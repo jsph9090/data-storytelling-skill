@@ -10,7 +10,13 @@ cách vẽ gây hiểu lầm.
 
 ## Cài đặt
 
-Clone thẳng vào thư mục skills của Claude Code:
+**Không cần tài khoản GitHub.** Chọn một trong hai cách:
+
+- **Không có git:** trên trang repo bấm **Code → Download ZIP**, giải nén rồi đổi tên thư mục thành
+  `data-storytelling` và đặt vào `C:\Users\<tên bạn>\.claude\skills\` (Windows) hoặc
+  `~/.claude/skills/` (macOS/Linux). Kiểm tra: file `SKILL.md` phải nằm ngay trong
+  `.claude\skills\data-storytelling\`, không lồng thêm một thư mục con.
+- **Có git:** clone thẳng vào thư mục skills của Claude Code:
 
 **Windows (PowerShell)**
 ```powershell
@@ -27,11 +33,13 @@ bạn yêu cầu vẽ chart, làm dashboard, trình bày số liệu; hoặc g�
 
 ## Cập nhật
 
+Nếu cài bằng git:
 ```powershell
 git -C "$env:USERPROFILE\.claude\skills\data-storytelling" pull
 ```
+Nếu cài bằng ZIP: tải ZIP mới và chép đè thư mục cũ.
 
-## Lưu ý
+## Nguồn
 
-Ảnh trong `examples/` là ảnh chụp các bài đăng của Chartosaur, chỉ dùng tham khảo nội bộ.
-Không chuyển repo sang public.
+Các ví dụ minh họa trong `examples/` là ảnh chụp từ loạt bài data storytelling của **Chartosaur**;
+bản quyền thuộc tác giả gốc. Repo này chỉ tổng hợp và gắn nhãn để học tập, tham khảo.
